@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .button {
+    @apply w-16 h-16 flex items-center justify-center bg-gray-800 text-white text-xl font-semibold rounded-lg shadow-md cursor-pointer active:scale-95 transition-transform;
+  }
+
+  .button-operator {
+    @apply bg-orange-500 text-white;
+  }
+
+  .button-clear {
+    @apply bg-red-500 text-white;
+  }
+
+  .button-equal {
+    @apply bg-green-500 text-white ;
+  }
+}
